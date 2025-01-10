@@ -43,8 +43,8 @@ import { CardContent } from "@/components/ui/card";
 import { sendBitcoin, signPsbt, pushPsbt, WalletOpCode } from "@/lib/wallet-utils";
 import { LoadingSpinner } from "@/components/icons/Spinner";
 import getProfileFromDelegate from "@/lib/get-profile-from-delegate";
-import CreateArticle from "@/components/article/CreateArticle";
-import DragAndDropEditor from "@/components/article/DragAndDropEditor";
+// import CreateArticle from "@/components/article/CreateArticle";
+// import DragAndDropEditor from "@/components/article/DragAndDropEditor";
 
 const Profiles = () => {
   const { network, showAlert, showError, tlr, mnemonic } = useContext(AppContext)
@@ -973,7 +973,7 @@ const Profiles = () => {
                       </div>
                       <CardContent className="bg-card pt-6 rounded-lg">
                         <div className="grid gap-4">
-                          <DragAndDropEditor setArticleData={setArticleData} />
+                          {/* <DragAndDropEditor setArticleData={setArticleData} /> */}
                           <Button onClick={handleMintArticle}>Mint Article</Button>
                         </div>
                       </CardContent>

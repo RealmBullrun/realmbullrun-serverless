@@ -2,7 +2,7 @@
 import { CardContent } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { useState } from "react"
-import DragAndDropEditor from "@/components/article/DragAndDropEditor"
+// import DragAndDropEditor from "@/components/article/DragAndDropEditor"
 
 const CreateArticlePage = () => {
     const [articleData, setArticleData] = useState(null)
@@ -21,7 +21,7 @@ const CreateArticlePage = () => {
             </div>
             <CardContent className="bg-card pt-6 rounded-lg">
                 <div className="grid gap-4">
-                    <DragAndDropEditor setArticleData={setArticleData} />
+                    {/* <DragAndDropEditor setArticleData={setArticleData} /> */}
                     <Button onClick={handleMintArticle}>Mint Article</Button>
                 </div>
             </CardContent>

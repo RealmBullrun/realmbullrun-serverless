@@ -16,13 +16,13 @@ export default async function Home() {
       <meta property="og:type" content="website" />
       <meta property="og:description" content="The premier exclusive atomicals club 🐮⚛️ 10K Bull-runners making BTC great again." />
       <meta property="og:url" content={`https://realmbullrun.com`} />
-      <meta property="og:image" content={`https://api.realmbullrun.com/api/preview/0.png`} />
+      <meta property="og:image" content={`https://raw.githubusercontent.com/realmbullrun/bull-images/main/0.png`} />
       <meta property="og:site_name" content="RealmBullrun.com" />
 
       <meta name="twitter:card" content="summary" />
       <meta name="twitter:title" content="RealmBullrun" />
       <meta name="twitter:description" content="The premier exclusive atomicals club 🐮⚛️ 10K Bull-runners making BTC great again." />
-      <meta name="twitter:image" content={`https://api.realmbullrun.com/api/preview/0.png`} />
+      <meta name="twitter:image" content={`https://raw.githubusercontent.com/realmbullrun/bull-images/main/0.png`} />
       <meta name="twitter:creator" content="@realmbullrun" />
 
       <div className=" flex items-start flex-col w-full -mt-8  relative" style={{ height: '144px', overflow: 'hidden' }}>

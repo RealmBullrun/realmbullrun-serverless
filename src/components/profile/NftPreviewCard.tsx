@@ -19,7 +19,7 @@ export const NftPreviewCard = ({ image, number, onDetail }: { image: string, num
         <span>{number}</span>
       </div>
       <CardHeader className=" p-2" >
-        <Image className={`image-hover image-pixel rounded-lg shadow-[0px_0px_40px_4px_rgba(117,141,179,0.31)] `} width={512} height={512} src={`${process.env.NEXT_PUBLIC_BACKEND_APIENDPOINT}/preview/${image}`} alt="No Image Found" />
+        <Image className={`image-hover image-pixel rounded-lg shadow-[0px_0px_40px_4px_rgba(117,141,179,0.31)] `} width={512} height={512} src={`https://raw.githubusercontent.com/realmbullrun/bull-images/main/${image}`} alt="No Image Found" />
       </CardHeader>
     </Card>
   )

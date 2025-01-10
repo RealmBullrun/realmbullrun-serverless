@@ -26,13 +26,13 @@ export default async function Explore({ params }: { params: any }) {
       <meta property="og:type" content="website" />
       <meta property="og:description" content="Explore on-chain profiles, the premier exclusive atomicals club 🐮⚛️ 10K Bull-runners making BTC great again." />
       <meta property="og:url" content={`https://realmbullrun.com`} />
-      <meta property="og:image" content={`https://api.realmbullrun.com/api/preview/1.png`} />
+      <meta property="og:image" content={`https://raw.githubusercontent.com/realmbullrun/bull-images/main/1.png`} />
       <meta property="og:site_name" content="RealmBullrun.com" />
       
       <meta name="twitter:card" content="summary" /> 
       <meta name="twitter:title" content="Explore RealmBullrun" />
       <meta name="twitter:description" content="Explore on-chain profiles, the premier exclusive atomicals club 🐮⚛️ 10K Bull-runners making BTC great again." />
-      <meta name="twitter:image" content={`https://api.realmbullrun.com/api/preview/1.png`} />
+      <meta name="twitter:image" content={`https://raw.githubusercontent.com/realmbullrun/bull-images/main/1.png`} />
       <meta name="twitter:creator" content="@realmbullrun" /> 
 
       <div className="w-full">

@@ -20,12 +20,12 @@ const nextConfig = {
         port: '',
         pathname: '/**',
       },    
-      // {
-      //   protocol: 'https',
-      //   hostname: 'api.hiro.so',
-      //   port: '',
-      //   pathname: '/**',
-      // },      
+      {
+        protocol: 'https',
+        hostname: 'raw.githubusercontent.com',
+        port: '',
+        pathname: '/**',
+      },      
       // {
       //   protocol: 'https',
       //   hostname: 'explorer.ordinalsbot.com',

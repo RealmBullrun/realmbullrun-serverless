@@ -343,7 +343,7 @@ export default function Collection() {
             subrealmList?.map((elem: any) => (
               <div key={elem.atomicalId} className="flex flex-col gap-2 items-center">
                 <Image className="image-pixel rounded-lg shadow-[0px_0px_40px_4px_rgba(117,141,179,0.31)] w-36" width={512} height={512}
-                  src={`${process.env.NEXT_PUBLIC_BACKEND_APIENDPOINT}/preview/${elem.subrealm}.png`} alt="No Image Found" />
+                  src={`https://raw.githubusercontent.com/realmbullrun/bull-images/main/${elem.subrealm}.png`} alt="No Image Found" />
                 <Button className="text-wrap mb-0 py-2 h-auto" key={elem.atomicalId} onClick={() => startMint(elem.subrealm)}>Mint Artwork {elem.subrealm}</Button>
                 <Button className="text-wrap mb-4 py-2 h-auto" key={elem.atomicalId} onClick={() => startDownload(elem.subrealm)}>Download JSON</Button>
               </div>
@@ -397,7 +397,7 @@ export default function Collection() {
                 <CarouselItem className="flex justify-center gap-2 lg:basis-1/3" key={index}>
                   <Card className="relative flex flex-row p-0">
                     <CardHeader className="p-2 relative">
-                      <Image className="object-cover w-64 h-64 rounded-lg shadow-lg" width={512} height={512} src={`${process.env.NEXT_PUBLIC_BACKEND_APIENDPOINT}/preview/${dummyItem.image}`} alt="No Image Found" />
+                      <Image className="object-cover w-64 h-64 rounded-lg shadow-lg" width={512} height={512} src={`https://raw.githubusercontent.com/realmbullrun/bull-images/main/${dummyItem.image}`} alt="No Image Found" />
                       <div style={{ marginTop: '0px' }} className="absolute top-0 left-0 w-full h-full flex items-center justify-center opacity-0 transition-opacity duration-300 hover:opacity-100 bg-[#282b30a1] bg-opacity-50 rounded-lg">
                         <div className="flex h-full justify-between flex-col text-center text-white p-6">
                           <h3 className="text-lg font-bold">{dummyItem.name}</h3>
@@ -497,7 +497,7 @@ export default function Collection() {
             <DialogHeader className="flex items-center gap-4 lg:flex-row">
               <div className="flex flex-col items-center gap-2 min-w-64 h-full">
                 <DialogTitle>{selectedItem?.name}</DialogTitle>
-                <Image className="image-pixel rounded-lg shadow-[0px_0px_40px_4px_rgba(117,141,179,0.31)] w-64 h-64" width={512} height={512} src={`${process.env.NEXT_PUBLIC_BACKEND_APIENDPOINT}/preview/${selectedItem?.token_id}.png`} alt="No Image Found" />
+                <Image className="image-pixel rounded-lg shadow-[0px_0px_40px_4px_rgba(117,141,179,0.31)] w-64 h-64" width={512} height={512} src={`https://raw.githubusercontent.com/realmbullrun/bull-images/main/${selectedItem?.token_id}.png`} alt="No Image Found" />
               </div>
               <DialogDescription className="w-full grid grid-cols-2 justify-items-center items-center gap-4 pt-4">
                 {selectedItem?.attributes.map((elem: any) => (

@@ -23,7 +23,6 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select"
-// import metadata from './metadata'
 import metadata from '@/lib/metadata'
 import LegendaryBullData from './legendary_bulls'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
@@ -212,64 +211,9 @@ export default function Collection() {
     }
   };
 
-
-  /* const startDownload = async (tokenId: string) => {
-    if (!tokenId)
-      return
-
-    if (!walletData.connected) {
-      showAlert("You should connect your wallet to mint.")
-      if (!walletData.connected) {
-        showAlert("Connect your wallet to continue.")
-        if (typeof window !== 'undefined' && window.wizz) {
-          connectWizz()
-        }
-        else if (typeof window !== 'undefined' && window.unisat) {
-          connectUnisat()
-        }
-      }
-      return
-    }
-
-    if (subrealmList?.filter((elem: any) => elem.subrealm === tokenId).length === 0) {
-      showAlert(`You should mint subrealm +${process.env.NEXT_PUBLIC_TOP_LEVEL_REALM}.${tokenId} first to be whitelisted...`)
-      return
-    }
-
-    let address = ""
-
-    const { opcode, result: signature } = await signMessage(originalMessage)
-    if (opcode === WalletOpCode.SUCCESS) {
-      address = walletData.primary_addr
-      const { success, content, msg } = await getItemJson(tokenId, address, signature)
-      if (!success) {
-        showAlert(msg)
-        return
-      }
-      const jsonBlob = new Blob([JSON.stringify(content, null, 2)], { type: 'application/json' });
-
-      const url = URL.createObjectURL(jsonBlob);
-      const link = document.createElement('a');
-      link.href = url;
-      link.download = `bullrun-${tokenId}.json`;
-
-      // Step 4: Append the link to the document and trigger the download
-      document.body.appendChild(link);
-      link.click();
-
-      // Step 5: Clean up
-      document.body.removeChild(link);
-      URL.revokeObjectURL(url);
-    }
-    else {
-      showAlert("Signature failed...")
-    }
-  } */
-
   const startMint = async (tokenId: string) => {
     if (!tokenId) return;
 
-    // Removed wallet connection and subrealm ownership checks
     try {
       const { success, content, msg } = await getItemJson(tokenId);
       if (!success) {
@@ -285,49 +229,6 @@ export default function Collection() {
     }
   };
 
-  /*  const startMint = async (tokenId: string) => {
-     if (!tokenId)
-       return
- 
-     if (!walletData.connected) {
-       showAlert("You should connect your wallet to mint.")
-       if (!walletData.connected) {
-         showAlert("Connect your wallet to continue.")
-         if (typeof window !== 'undefined' && window.wizz) {
-           connectWizz()
-         }
-         else if (typeof window !== 'undefined' && window.unisat) {
-           connectUnisat()
-         }
-       }
-       return
-     }
- 
-     if (subrealmList?.filter((elem: any) => elem.subrealm === tokenId).length === 0) {
-       showAlert(`You should mint subrealm +${process.env.NEXT_PUBLIC_TOP_LEVEL_REALM}.${tokenId} first to be whitelisted...`)
-       return
-     }
- 
-     let address = ""
- 
-     const { opcode, result: signature } = await signMessage(originalMessage)
-     if (opcode === WalletOpCode.SUCCESS) {
-       address = walletData.primary_addr
-       const { success, content, msg } = await getItemJson(tokenId, address, signature)
-       if (!success) {
-         showAlert(msg)
-         return
-       }
-       const mintResult = await mintDMItem(content)
-       if (mintResult.opcode !== WalletOpCode.SUCCESS) {
-         showAlert(mintResult.message)
-       }
-     }
-     else {
-       showAlert("Signature failed...")
-     }
- 
-   } */
 
   let whitelistDOM = (
     <Card className="w-full z-10 mt-4">
@@ -514,11 +415,6 @@ export default function Collection() {
                       onClick={() => startMint(selectedItem?.token_id)}
                     >Mint</Button>
                   }
-                  {/* <Button
-                    className={`border bg-secondary rounded-none h-auto w-6/12`}
-                    variant={'ghost'}
-                    onClick={() => startMint(selectedItem?.token_id)}
-                  >Mint</Button> */}
                 </div>
               </DialogDescription>
             </DialogHeader>

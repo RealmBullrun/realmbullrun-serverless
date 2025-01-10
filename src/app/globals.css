@@ -1,0 +1,121 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  height: 100dvh;
+}
+
+@layer base {
+  :root {
+    --background: 238 46% 99%;
+    --foreground: 238 64% 1%;
+    --muted: 238 26% 92%;
+    --muted-foreground: 238 15% 26%;
+    --popover: 238 46% 98%;
+    --popover-foreground: 238 64% 0%;
+    --card: 238 46% 98%;
+    --card-foreground: 238 64% 0%;
+    --border: 238 14% 89%;
+    --input: 238 14% 89%;
+    --primary: 238 23% 56%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 238 2% 87%;
+    --secondary-foreground: 238 2% 27%;
+    --accent: 238 2% 87%;
+    --accent-foreground: 238 2% 27%;
+    --destructive: 0 91% 33%;
+    --destructive-foreground: 0 91% 93%;
+    --ring: 238 23% 56%;
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 217.5 9.09% 17.25%;
+    --foreground: 334 34% 98%;
+    --muted: 210 9.09% 12.94%;
+    --muted-foreground: 334 0% 60.77%;
+    --popover: 210 9.09% 12.94%;
+    --popover-foreground: 334 34% 98%;
+    --card: 210 9.09% 12.94%;
+    --card-foreground: 334 34% 98%;
+    --border: 334 0% 18.46%;
+    --input: 214.29 5.04% 27.25%;
+    --primary: 226.73 58.43% 65.1%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 214.29 5.04% 27.25%;
+    --secondary-foreground: 334 0% 100%;
+    --accent: 217.5 9.09% 17.25%;
+    --accent-foreground: 226.73 58.43% 65.1%;
+    --destructive: 0 86.89% 48.16%;
+    --destructive-foreground: 0 0% 0%;
+    --ring: 217.5 9.09% 17.25%;
+  }
+
+  /* Firefox */
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: var(--secondary) var(--primary);
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 17px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: var(--primary);
+    border-radius: 5px;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: var(--secondary);
+    border-radius: 14px;
+    border: 3px solid var(--primary);
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: var(--tertiary);
+  }
+
+}
+
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  .feed-cols,
+  .new-feed-cols {
+    grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+  }
+
+  .feed-cols,
+  .new-feed-cols,
+  .picker-cols {
+    display: grid;
+    justify-content: stretch;
+    width: 100%;
+    justify-items: stretch;
+  }
+
+  .image-pixel {
+    image-rendering: pixelated;
+  }
+
+  .image-hover {
+    transform: scale(1, 1);
+    transition: 0.5s;
+
+    &:hover {
+      transform: scale(1.09, 1.09);
+    }
+  }
+
+  .wrap-anywhere {
+    overflow-wrap: anywhere;
+  }
+
+}

@@ -1,0 +1,345 @@
+{
+    "global": {
+        "atomical_count": 217218,
+        "atomicals_block_hashes": {
+            "859368": "55d9c76694a6ce641c196c077aa1ec0eb853b252962b14ccc85ea03604b3c28e",
+            "859369": "8f0cf8d1ea01a1a477832bf38d239e7999b00f6437f1fe0e433d05024ae978d4",
+            "859370": "d27a39057009b34def9e044b8300ea2ee6de64544f09db9a178be3d99b116891",
+            "859371": "afadd86b03495c5dec7ba1fe8d88a4a8e35e6130a88891c9bc4bffc9c623e63e",
+            "859372": "e2dee8704062ecba995077fe8b3c60f0fae7a98677e24e82d3612bf844fbaaa7",
+            "859373": "e240df8c1d64fb50c28ae12ffa2aff58ccb8c644bcfcfbb5c437cf32cd96eb4e",
+            "859374": "0787409aa91a1626d173a64a07b637661bc57be1f67409328e09c0904763dcb6",
+            "859375": "3192279c2aff1770cb8981dd98bfd4456e6b660e56ce47823aa1482d5506b872",
+            "859376": "76abe72ce14bc866e17f80c06513cfaa9ecf265ea45f0b1c5dd1b456f82a6667",
+            "859377": "5a7a140fb5d830e671e37b7ce8e41a82134033a90169b5c36b5c43675853c4ab"
+        },
+        "atomicals_block_tip": "5a7a140fb5d830e671e37b7ce8e41a82134033a90169b5c36b5c43675853c4ab",
+        "block_tip": "00000000000000000000f0ed0c400a819b5d5bd6b417bf76e87488995b64a64d",
+        "coin": "Bitcoin",
+        "height": 859377,
+        "network": "mainnet",
+        "server_time": "2024-09-01T13:02:42.884627"
+    },
+    "result": {
+        "$bitwork": {
+            "bitworkc": "7878",
+            "bitworkr": null
+        },
+        "atomical_id": "7878926f9870cac4fd3984eed2ea3a2c07c0ce4ee1f0a3011bbfcd5d8809d134i0",
+        "atomical_number": 216810,
+        "atomical_ref": "f1w94vwre35c9z9sgkqd5tht5g3w1kjew7ra608vqz6nv209t4t0i0",
+        "confirmed": true,
+        "location_counts": 1,
+        "location_info": [
+            {
+                "atomicals_at_location": [
+                    "7878926f9870cac4fd3984eed2ea3a2c07c0ce4ee1f0a3011bbfcd5d8809d134i0"
+                ],
+                "index": 0,
+                "location": "f1fa38d74a476a767d22fda41f314a95b24745b92319149fd9f892ddf90f243bi0",
+                "script": "51202129f0a75f387258ab435289d2dd7c4427caf207fcaf225b89711007da2d2413",
+                "scripthash": "630b0818b07c7ae9ebae5a38328d6a226c1ce9f80002770c26a49d7b0c9118d2",
+                "tx_num": 1055306587,
+                "txid": "f1fa38d74a476a767d22fda41f314a95b24745b92319149fd9f892ddf90f243b",
+                "value": 1000
+            }
+        ],
+        "location_info_obj": {
+            "locations": [
+                {
+                    "atomicals_at_location": [
+                        "7878926f9870cac4fd3984eed2ea3a2c07c0ce4ee1f0a3011bbfcd5d8809d134i0"
+                    ],
+                    "index": 0,
+                    "location": "f1fa38d74a476a767d22fda41f314a95b24745b92319149fd9f892ddf90f243bi0",
+                    "script": "51202129f0a75f387258ab435289d2dd7c4427caf207fcaf225b89711007da2d2413",
+                    "scripthash": "630b0818b07c7ae9ebae5a38328d6a226c1ce9f80002770c26a49d7b0c9118d2",
+                    "tx_num": 1055306587,
+                    "txid": "f1fa38d74a476a767d22fda41f314a95b24745b92319149fd9f892ddf90f243b",
+                    "value": 1000,
+                    "address": "bc1pyy5lpf6l8pe9326r22ya9htugsnu4us8ljhjykufwygq0k3dysfsu0twnj"
+                }
+            ]
+        },
+        "mint_info": {
+            "$bitwork": {
+                "bitworkc": "7878",
+                "bitworkr": null
+            },
+            "$immutable": false,
+            "args": {
+                "bitworkc": "7878",
+                "nonce": 0,
+                "time": 1722957347
+            },
+            "commit_height": 855671,
+            "commit_index": 0,
+            "commit_location": "7878926f9870cac4fd3984eed2ea3a2c07c0ce4ee1f0a3011bbfcd5d8809d134i0",
+            "commit_tx_num": 1055306568,
+            "commit_txid": "7878926f9870cac4fd3984eed2ea3a2c07c0ce4ee1f0a3011bbfcd5d8809d134",
+            "ctx": {},
+            "meta": {},
+            "reveal_location": "f1fa38d74a476a767d22fda41f314a95b24745b92319149fd9f892ddf90f243bi0",
+            "reveal_location_blockhash": "ac4c3e01ef2a035848d13e88863ba4a47d202310c96201000000000000000000",
+            "reveal_location_header": "00e00120a96b3d2efb3af1196069784306458632b2e191dfc6f401000000000000000000aabbd39f983d5cdda6fa495079bb7213e926dbc88c1b5675b3ceb70ec26266dcc64fb266be1a03176b77e561",
+            "reveal_location_height": 855671,
+            "reveal_location_index": 0,
+            "reveal_location_script": "51202129f0a75f387258ab435289d2dd7c4427caf207fcaf225b89711007da2d2413",
+            "reveal_location_scripthash": "630b0818b07c7ae9ebae5a38328d6a226c1ce9f80002770c26a49d7b0c9118d2",
+            "reveal_location_tx_num": 1055306587,
+            "reveal_location_txid": "f1fa38d74a476a767d22fda41f314a95b24745b92319149fd9f892ddf90f243b",
+            "reveal_location_value": 1000,
+            "reveal_location_address": "bc1pyy5lpf6l8pe9326r22ya9htugsnu4us8ljhjykufwygq0k3dysfsu0twnj",
+            "blockheader_info": {
+                "version": 536993792,
+                "prevHash": "00000000000000000001f4c6df91e1b2328645064378696019f13afb2e3d6ba9",
+                "merkleRoot": "dc6662c20eb7ceb375561b8cc8db26e91372bb795049faa6dd5c3d989fd3bbaa",
+                "timestamp": 1722961862,
+                "bits": 386079422,
+                "nonce": 1642428267
+            }
+        },
+        "state": {
+            "latest": {
+                "blocks": [
+                    {
+                        "content": "from <a class='text-purple-800' href='https://proton.me/wallet/bitcoin-guide-for-newcomers' target='_blank'>https://proton.me/wallet/bitcoin-guide-for-newcomers</a>",
+                        "metadata": {
+                            "timestamp": "2024-08-03T12:00:00Z"
+                        },
+                        "type": "text"
+                    },
+                    {
+                        "content": "In this article, we review some important history and features of Bitcoin for newcomers. We also look at how Bitcoin enables financial sovereignty and freedom. Finally, we explore the challenges facing Bitcoin and its future potential.",
+                        "title": "Introduction",
+                        "type": "text"
+                    },
+                    {
+                        "content": "Bitcoin the network officially started on January 3, 2009, when the pseudonymous developer Satoshi Nakamoto created the first block of the Bitcoin blockchain.",
+                        "title": "The Bitcoin network",
+                        "type": "text"
+                    },
+                    {
+                        "content": "The Bitcoin blockchain is the public ledger that records all historic transactions. Satoshi received the first 50 bitcoins (BTC), the network's token asset, as a reward for mining this block. Since then, over 840,000 blocks have been added, resulting in over 19 million bitcoins, all created through mining.",
+                        "type": "text"
+                    },
+                    {
+                        "content": "There are four main players in the Bitcoin network:developers, full nodes, miners, and bitcoin users.",
+                        "type": "text"
+                    },
+                    {
+                        "children": [
+                            {
+                                "content": "Developers write the open source code for Bitcoin, which implements rules, such as what is a valid transaction, how a block of transactions should be added to the blockchain, and how miners are rewarded with new bitcoins. They publish their code and anyone else can take that code for free and modify or use it.",
+                                "name": "Developers",
+                                "type": "text"
+                            },
+                            {
+                                "content": "Full nodes are servers on the internet that run Bitcoin code and enforce the network rules by rejecting invalid transactions and blocks. In order to verify any transaction without trusting a third party, each full node builds and stores the complete history of all Bitcoin transactions, starting with the first block. Full nodes also maintain the mempool, which is where all valid but unconfirmed transactions wait to be added to a new block.",
+                                "name": "Full Nodes",
+                                "type": "text"
+                            },
+                            {
+                                "content": "Miners are a special type of full node that take the pending transactions from the mempool and try to create the next valid block of transactions through the proof-of-work (PoW) process. Once a miner succeeds in the computational challenge before other miners, it tells other full nodes, which verify if the miner followed all the rules. If yes, each full node then adds the valid block to its copy of the blockchain and tells other full nodes, until the network reaches consensus. The miner that solved the PoW challenge for the new block gets some new bitcoins as a reward for their computational contribution. Miners basically convert computing power into new bitcoins and secure the network from attacks. On average, a new block is added every 10 minutes and each block can contain thousands of transactions. A difficulty adjustment on mining happens every 2,016 blocks to try to maintain the 10 minute tempo.",
+                                "name": "Miners",
+                                "type": "text"
+                            },
+                            {
+                                "content": "Users can hold BTC and use it for transactions. They do this by using a cryptographic public key to generate Bitcoin addresses and receive BTC at those addresses. To send BTC to another address, they use the private key to sign the transaction. Thus, whoever owns the private key owns the associated BTC. Users can either trust third-party services like exchanges to hold their bitcoin, or use a self-custodial Bitcoin wallet like Proton Wallet to store the key themselves. When users want their transactions added to the blockchain, they will often pay transaction fees that go to the miners as another incentive to include their transaction. This network fee goes up when there is more demand for Bitcoin transactions.",
+                                "name": "Bitcoin users",
+                                "type": "text"
+                            }
+                        ],
+                        "type": "accordion"
+                    },
+                    {
+                        "content": "<div class='text-center px-4 italic'>In the early days, Satoshi played all the roles to kickstart the network. But because Bitcoin is an open permissionless network, more and more people joined by contributing to the codebase, running full nodes, mining, or transacting with bitcoin. By the end of 2010, Satoshi voluntarily disappeared, never again moving the 1 million bitcoins that he had mined and ending his influence on how Bitcoin develops. The Bitcoin network has now grown to tens of thousands of nodes run by individuals and organizations around the world with tens of millions of users. This decentralized network is the key to Bitcoin's long-term security and reliability.</div>",
+                        "type": "text"
+                    },
+                    {
+                        "content": "Bitcoin has a system of checks and balances among the developers, full node operators, and mining node operators. Developers can update the open source Bitcoin code but cannot force their updates on the node operators. Miners are needed to keep adding new blocks that confirm new transactions. Full nodes have the most power over the state of the network by enforcing rules and approving new blocks from miners.",
+                        "title": "Importance of decentralization",
+                        "type": "text"
+                    },
+                    {
+                        "children": [
+                            {
+                                "content": "<div class='mb-4'>If there were only a few full nodes run by a few entities, such as in the early days of Bitcoin, then this would be a centralized network and it would be fairly easy for those few entities to collude and change the rules. The more full nodes there are run by different entities, the more decentralized the network and the harder it is for anyone to change how the network works.</div><div class='mb-4'>For those who use BTC as a store of value, decentralization is critical to ensure that no one can change the rules, especially the total supply of BTC. Bitcoin has a rule that reduces by half the bitcoin reward given to miners after every 210,000 blocks, which is approximately every four years. This leads to fewer and fewer new BTC being created (since April 2024, only 3.125 bitcoins were mined per block) and as a result no more than 21 million BTC will ever be created. This fixed supply is critical for the long-term price of BTC, which is determined by supply versus demand.</div>",
+                                "name": "Unchanging rules",
+                                "type": "text"
+                            },
+                            {
+                                "content": "<div class='mb-4'>There was a Blocksize War in 2016-2017 that tested how decentralized Bitcoin really was. One faction of the Bitcoin community, the Big Blockers, wanted to increase the maximum size of each block, from 1 megabyte to something higher like 32 megabytes. This increase would allow many more transactions to fit in each block, which means much higher transaction throughput for the Bitcoin blockchain. This would help scale Bitcoin to handle more users and payments. Major companies such as exchanges and miners wanted this change as it would be good for their businesses.</div><div class='mb-4'>However, a second-order effect of increasing block size is that fewer individuals would be able to run full nodes when storage and bandwidth requirements go up 32 times. Control over the network would then centralize to the companies that can afford massive servers and make it more likely that other rules will change in the future. So the full node operators, many of whom were using cheap desktop computers, defeated the big companies and prevented the block size increase.</div><div class='mb-4'>In response, the Big Blockers hardforked Bitcoin at the end of 2017 to create a new blockchain and token, called Bitcoin Cash, which had 32 megabytes per block. At the time of the hardfork, everyone who owned Bitcoin also owned the same number of Bitcoin Cash, and then the two blockchains diverged. Since then, Bitcoin Cash has lost over 95% of its market value and mining hashpower compared to Bitcoin, showing the importance of using a bigger and more secure network. As of July 2024, the Bitcoin blockchain is just over 500 gigabytes, which means individuals can still easily run a full node with an affordable computer.</div>",
+                                "name": "Blocksize War",
+                                "type": "text"
+                            }
+                        ],
+                        "type": "accordion"
+                    },
+                    {
+                        "content": "Bitcoin the digital asset has a market value determined by supply and demand. In the early days of Bitcoin, there wasn't any demand so bitcoins were worth nothing. As of July 2024, one can sell a bitcoin for around $60,000 USD, which means all 21 million bitcoins would have a market cap of around $1.2 trillion USD.",
+                        "title": "Price cycles",
+                        "type": "text"
+                    },
+                    {
+                        "desc": "<p>Source:<a href='https://tabtrader.com/academy/articles/bitcoin-halving-what-is-it-and-why-it-matters' target='_blank' rel='noopener noreferrer'>Tab Trader</a></p>",
+                        "image": "https://images.prismic.io/proton-me/ZqDTMx5LeNNTxc7f_price-cycle-graph.png?auto=compress%2Cformat&fit=max&w=1428&h=819",
+                        "type": "image"
+                    },
+                    {
+                        "content": "As a new asset that's neither backed by anything nor forced on people by their government, it's inevitable that its market price will be very volatile. Below is a graph of bitcoin price in USD on a log scale. You can see it has been trending up with distinct four-year cycles that correlate with the halvings.",
+                        "type": "text"
+                    },
+                    {
+                        "children": [
+                            {
+                                "content": "<div class='mb-4'>As mentioned earlier, Bitcoin halving happens around every four years and reduces the bitcoin reward given to miners by half. Mining is the only way new BTC are created and miners have to sell at least some of these BTC to cover their costs and investments. So the halving causes the new supply of BTC that sells into the market to decrease every four years. Assuming demand doesn't decrease, less BTC for sale generally means price goes up.</div><div class='mb-4'>This is probably why the year before the halving and the year after the halving, we have seen bitcoin price go up significantly. As the price shoots up, this tends to attract newcomers who start to learn about Bitcoin and potentially buy some, increasing the demand and driving up the price even more. As the Bitcoin network grew and market liquidity increased, this also allowed bigger and bigger investors to join.</div>",
+                                "name": "Bitcoin halvings",
+                                "type": "text"
+                            },
+                            {
+                                "content": "<div class='mb-4'>Eventually, the price tops out and the bubble bursts as people take profit and sell BTC. The price collapses as people who can't stomach the volatility sell in panic, often causing the price to drop 80% from the peak. This is usually when the media proclaims “Bitcoin is dead”. Meanwhile, the Bitcoin network continues to grow with a new block every 10 minutes and more adoption compared to the last cycle. Eventually, the next halving approaches and the cycle has been repeating, but so far with higher highs and higher lows than the previous cycles. However, as time goes on and mining rewards keep decreasing, we would expect each halving to have less of a price shock.</div><div class='mb-4'>After the fourth halving in April 2024, Bitcoin's annual inflation rate (how many new BTC are created each year divided by total BTC already created) was reduced to 0.85%. By contrast, gold, the best performing asset for thousands of years due to its scarcity and consistently low new supply, has been at around 2% annual inflation. For a store of value, you want an asset with a lower inflation rate, and Bitcoin, through its rules enforced by the biggest and most secure decentralized network, should see its inflation rate reduced by half every four years until inflation reaches 0%.</div>",
+                                "name": "Volatility",
+                                "type": "text"
+                            }
+                        ],
+                        "type": "accordion"
+                    },
+                    {
+                        "content": "While BTC price gains are what first attracts many newcomers, Bitcoin's potential to bring financial sovereignty and freedom to billions of people is perhaps even more interesting to understand.",
+                        "title": "Financial sovereignty and freedom",
+                        "type": "text"
+                    },
+                    {
+                        "children": [
+                            {
+                                "content": "<div class='mb-4'>There are multiple solutions that allow you to hold Bitcoin and they exist on a spectrum of dependency on third parties vs self-sovereignty. For example, if you have BTC in an ETF or exchange, you are trusting some companies to hold BTC for you. The ledger that tracks how much BTC you have is in these companies' private databases, not on the public blockchain. These centralized custodial solutions are at risk of losing your bitcoin to hacks (Mt. Gox) or poor management (FTX), or they might simply block you due to legal and regulatory pressures.</div><div class='mb-4'>On the self-sovereign side of the spectrum are self-custodial wallets where you are the only one with access to the cryptographic key that controls your BTC. Self-custodial wallets allow you to store and use Bitcoin the way it was designed:peer-to-peer and censorship-resistant. This means all transactions are saved on the Bitcoin blockchain forever and the transferred BTC goes directly from sender to recipient without any intermediary taking control. With self-custody, you truly own your BTC and no one can block your access or seize your assets.</div>",
+                                "name": "Not your keys, not your coin",
+                                "type": "text"
+                            },
+                            {
+                                "content": "<div class='mb-4'>Bitcoin was the first digital asset that you can truly own and use without having to trust or depend on third parties. Bitcoin is open and permissionless, so anyone with internet access can download a free self-custodial wallet and start receiving bitcoin. For the 2 billion people who cannot access bank accounts or stable financial services, Bitcoin offers a powerful free alternative.</div><div class='mb-4'>In addition to accessibility, it is also important to save wealth in assets that maintain their value over time. The main factors that affect asset value over time are supply and demand. Historically, the asset that maintained value the best was gold, because it has been very hard to create more gold, despite technological advances. The consistently low inflation rate of gold then led more people to want to own it, increasing demand and adoption.</div><div class='mb-4'>In comparison, fiat money, issued by governments and not backed by scarce commodities like gold, can be easily created out of thin air by those in power. This allows those in power to inflate the money supply and silently steal wealth from the population that saved in it. This power is often abused in times of crisis, such as financial depressions, wars, and pandemics. The following graph shows three relatively strong fiat currencies all dropping more than 99% in value relative to gold in the last 100 years.</div><div class='mb-4'>There are currently over 150 fiat currencies in the world and all of them have been inflating and losing value over the long term. Billions of people are forced to use fiat currencies that lose over 10% of their value every year. Even in developed countries with the strongest fiat currencies, we see prices of hard assets like real estate increasing every year due to inflation.</div><div class='mb-4'>Bitcoin is often referred to as “digital gold” because no single entity has the power to inflate or debase it. Bitcoin's 21 million fixed supply is enforced by the strongest decentralized network, run by people from around the world who are financially motivated to protect Bitcoin's long-term value and security.</div>",
+                                "name": "Freedom to save",
+                                "type": "text"
+                            },
+                            {
+                                "content": "<div class='mb-4'>While gold may have been great at storing value, it is extremely difficult to transact or pay with. Physical cash, which is great for private in-person payments, doesn't work well for long-distance transactions. For digital payments, which are replacing cash use around the world, we have to rely on intermediaries such as banks and payment processors. These companies surveil our financial activities and can freeze our transactions and accounts at any time. These centralized services are often abused by authoritarian governments as an instrument of control, such as to financially stifle dissidents and activists.</div><div class='mb-4'>Bitcoin offers a global alternative that is natively digital but censorship-resistant and free from third-party control. When traditional financial services are cut off from each other, charging exorbitant fees, or restricting financial freedom, Bitcoin allows you to be your own bank and transact peer-to-peer with any other Bitcoin user. Bitcoin has the potential to be a freedom technology that takes financial power away from centralized entities and gives it back to individuals.</div>",
+                                "name": "Freedom to transact",
+                                "type": "text"
+                            }
+                        ],
+                        "type": "accordion"
+                    },
+                    {
+                        "desc": "<p>Source:<a href='https://seekingalpha.com/article/4366155-u-s-dollar-devalues-99-percent-vs-gold-in-100-years-gold-price-crosses-2067' target='_blank' rel='noopener noreferrer'>Seeking Alpha</a></p>",
+                        "image": "https://proton-me.cdn.prismic.io/proton-me/ZpqONR5LeNNTxT9L_Capturadepantalla2024-07-18alas17.55.101.svg",
+                        "type": "image"
+                    },
+                    {
+                        "content": "In this section, we review the major challenges facing Bitcoin and how they may be overcome.",
+                        "title": "Challenges for Bitcoin",
+                        "type": "text"
+                    },
+                    {
+                        "children": [
+                            {
+                                "content": "<div class='mb-4'>For Bitcoin to work securely without trust in any central authorities, the blockchain must record every transaction. This means every full node knows every bitcoin address that has ever been used, how much BTC it received or sent, and which other addresses it received from or sent to. This is how people can track Satoshi's early addresses that are estimated to hold over 1 million bitcoins and see that he hasn't made any recent transactions with them.</div><div class='mb-4'>It is important to understand that Bitcoin is pseudonymous, not anonymous. Once your real identity is linked to a bitcoin address, then you can be tracked on the blockchain if you use that address. One way to mitigate this privacy risk is to generate and use a new address for receiving each new transaction so that your BTC from different transactions stay on different addresses. This is why Proton Wallet automatically rotates addresses when you receive Bitcoin via Email. These address segregations become harder to manage when you have to send BTC, which may combine different addresses to fund the transaction if one address does not have enough BTC.</div><div class='mb-4'>Coinjoin is considered the best solution for improving blockchain privacy. It works by mixing your BTC with other users' BTC in a collaborative self-custodial transaction where you get back the same amount of BTC that you put in but on a different address that cannot be easily linked to your previous address. However, in 2024, in what many consider to be a regulatory overreach and attack on privacy, some of these Coinjoin services have been declared illegal in the US and EU. The future of financial privacy may therefore be decided by ongoing litigation in the next decade and privacy advocates should support these efforts.</div>",
+                                "name": "Privacy",
+                                "type": "text"
+                            },
+                            {
+                                "content": "<div class='mb-4'>With traditional financial services, the sender or the recipient have to pay a fee to the company that facilitates the payment. For example, to receive credit card payments, merchants typically have to pay a 2-3% fee to the payment processor, such as Visa or Mastercard. For international remittances, the sender may have to pay a 5% fee to the service provider.</div><div class='mb-4'>For onchain Bitcoin transactions, there is no central service provider to pay. Instead, senders pay a network fee that goes to the miner who includes their transaction in a block that gets added to the blockchain. This fee is not based on the BTC amount of the transaction, but instead scales with the size that the transaction would occupy on the blockchain. Miners are incentivized to pick the transactions that lead to the most fees for them.</div><div class='mb-4'>The challenge with network fees is that it can change very quickly and significantly depending on demand for onchain transactions. The graph below shows typical Bitcoin network fees in USD over the last five years. As recently as April 2024, fees spiked to over $100 USD during high demand before the halving.</div><div class='mb-4'>As Bitcoin adoption grows and more people transact with it, we expect network fees to continue to increase. This will price out lower value transactions and make onchain transactions unaffordable for most individuals. The solution to high network fees requires scaling Bitcoin.</div>",
+                                "name": "Network fees",
+                                "type": "text"
+                            }
+                        ],
+                        "type": "accordion"
+                    },
+                    {
+                        "desc": "<p>Source:<a href='https://ycharts.com/indicators/bitcoin_average_transaction_fee' target='_blank' rel='noopener noreferrer'>Ycharts.com</a></p>",
+                        "image": "https://images.prismic.io/proton-me/ZqDU5R5LeNNTxc8o_graph-network-fees.png",
+                        "type": "image"
+                    },
+                    {
+                        "children": [
+                            {
+                                "content": "<div class='mb-4'>As discussed in the Blocksize War section, Bitcoiners did not want to scale the network by increasing the size of blocks at the expense of security or decentralization. Currently with 1 megabyte blocks, the Bitcoin network can support, at most, seven onchain transactions per second, which is too low for mass adoption and payment processing like Visa/Mastercard. The favored solution has been to build new layers on top of Bitcoin — the layer 1 network — and move most transactions offchain to these higher layers.</div>",
+                                "name": "Scaling",
+                                "type": "text"
+                            },
+                            {
+                                "content": "<div class='mb-4'>The Lightning Network is a layer 2 scaling solution that is secured by Bitcoin. The idea is to open payment channels between nodes that are likely to transact frequently. Only the opening and closing states of the channel need to be saved to the blockchain; other transactions between the nodes are saved offchain by each node and cryptographically signed to prevent cheating. Nodes can also forward payments for other nodes that are not directly connected and collect a routing fee.</div><div class='mb-4'>Lightning transactions have several advantages over onchain transactions. First, it allows for instant settlement instead of waiting for 10-minute blocks to confirm. Second, it is more private because transactions are not saved to the blockchain forever. Finally, it tends to have lower transaction fees by avoiding onchain network fees for most transactions. All these advantages make Lightning better for Bitcoin payments.</div><div class='mb-4'>The challenge with Lightning is that self-custodial wallets, where each user runs a node that has their BTC in payment channels, is quite complex to operate. It also requires each user to pay at least one onchain fee to open a channel and potentially more onchain fees later to add or remove funds from the channel. As onchain fees increase, self-custodial Lightning will also be unaffordable for more and more individuals.</div><div class='mb-4'>This is why most Lightning users are on custodial wallets and rely on centralized services to manage the complexity and fees with economies of scale. At this point, Lightning looks more suitable for custodial services to transact with each other and not for the masses to use in a self-sovereign way.</div>",
+                                "name": "Lightning Network",
+                                "type": "text"
+                            },
+                            {
+                                "content": "<div class='mb-4'>Since Bitcoin is free open source software, anyone can take the code, modify it, and run their own network. The tokens of these alternative networks are known as altcoins. Some of these altcoins tried to improve on Bitcoin, such as by increasing the blocksize as discussed with Bitcoin Cash. Others were simply ponzi schemes pumped up by individuals looking to defraud people who didn't understand the difference, leading to the term “shitcoins”.</div><div class='mb-4'>Many altcoins were pre-mined by their creators, who got a large fraction of the tokens, before launching to the general public. The creators of these altcoins were then extremely financially motivated to market their coins. Most altcoins were centrally controlled and quickly changed, in contrast to Bitcoin, which by design has been incredibly difficult to change. This proliferation of altcoins and other unsustainable businesses became known as “crypto” and has taken attention and market share away from Bitcoin. Most of these altcoins provided no value to the world, could not find market fit, and collapsed, causing millions of individuals to lose billions.</div><div class='mb-4'>The key things that differentiate Bitcoin are the network and protocol. Bitcoin has the largest network and its network effect draws in more users, further increasing its utility as a global monetary network and the value of BTC. Altcoins simply cannot compete even if they have some perceived advantages such as higher throughput or privacy. As more merchants and consumers around the world adopt Bitcoin, the network effect should continue to strengthen.</div><div class='mb-4'>Bitcoin is also a digital protocol for money on the internet, and with protocols, it's almost always winner-takes-all. In the early decades of the internet, there were the Protocol Wars and eventually the world converged to use the same protocols to communicate. For example, we all use TCP/IP to send traffic over the internet, we all use HTTP to browse the web, and we all use SMTP to send emails. Bitcoin, and its higher layers such as the Lightning Network, is currently the dominant open protocol for sending value on the internet.</div>",
+                                "name": "Bitcoin vs altcoins",
+                                "type": "text"
+                            }
+                        ],
+                        "type": "accordion"
+                    },
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "content": "In the 1990's, the invention of the World Wide Web by Tim Berners-Lee allowed information to easily flow on the internet. It introduced the masses to use websites to read the news, play games, or send emails.",
+                                        "type": "text"
+                                    },
+                                    {
+                                        "content": "Individuals and organizations could easily set up web servers and mail servers and be connected on a global information network that was open to all.",
+                                        "type": "text"
+                                    },
+                                    {
+                                        "content": "What was missing was a permission less way for people to freely send value over the internet. Unfortunately, without easy-to-use digital money to pay for services, we ended up paying for “free” products with our attention and data. Many internet companies adopted the advertising business model, which inevitably pressured them to invade users' privacy in order to maximize profits.",
+                                        "type": "text"
+                                    }
+                                ],
+                                "type": "text"
+                            },
+                            {
+                                "children": [
+                                    {
+                                        "content": "The reason many people are excited about Bitcoin is because of its potential to become the global value network that would allow us to freely send value and payments on the internet.",
+                                        "type": "text"
+                                    },
+                                    {
+                                        "content": "The first part of this process is making a valuable digital asset that people will want. This has mostly been accomplished in the 15 years since Satoshi mined the first BTC in 2009.",
+                                        "type": "text"
+                                    },
+                                    {
+                                        "content": "The second part of this process is making it easy for anyone to adopt Bitcoin and use it for payments. This is the main challenge in the next 15 years that will determine whether or not Bitcoin can succeed.",
+                                        "type": "text"
+                                    }
+                                ],
+                                "type": "text"
+                            }
+                        ],
+                        "title": "The web of value",
+                        "type": "hbox"
+                    }
+                ],
+                "image": "https://s1.to1.dev/bitcoin.svg",
+                "metadata": {
+                    "author": [
+                        {
+                            "avatar": "https://res.cloudinary.com/dbulfrlrz/image/upload/v1693233221/static/logos/proton-logo-p_kftwpv.svg",
+                            "name": "Proton Wallet"
+                        },
+                        {
+                            "avatar": "https://s1.arc20.me/images/9fb7315b6f8b73662ed6a2b03cafa0d75c4a90bc2bc913148a7a6b5a56c36daf",
+                            "name": "to1dev"
+                        }
+                    ],
+                    "theme": "Minimal",
+                    "timestamp": 1722891625
+                },
+                "name": "Beginner's Guide to Bitcoin",
+                "v": "1.2"
+            }
+        },
+        "type": "NFT"
+    }
+}

@@ -1,13 +1,8 @@
 import RecentCarousel from "@/components/common/RecentCarousel";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
 import Image from "next/image";
 import Link from "next/link";
-import getMintStatus from "@/lib/get-mint-status";
 
 export default async function Home() {
-
-  const { subrealmCount, profileSetCount } = await getMintStatus()
 
   return (
     <>
@@ -31,8 +26,6 @@ export default async function Home() {
           src="/Banner.gif"
           width={1800}
           height={500}
-          // layout="fill"
-          // objectFit="cover"
           className="absolute left-0 top-0 z-0 dark:brightness-50"
         />
       </div>
